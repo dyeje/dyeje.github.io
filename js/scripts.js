@@ -97,9 +97,6 @@ $(document).ready(function () {
                 $('header .member-actions').css({
                     "top": "26px",
                 });
-                $('header .navicon').css({
-                    "top": "34px",
-                });
             } else {
                 $('section.navigation').removeClass('fixed');
                 $('header').css({
@@ -107,9 +104,6 @@ $(document).ready(function () {
                 });
                 $('header .member-actions').css({
                     "top": "41px",
-                });
-                $('header .navicon').css({
-                    "top": "48px",
                 });
             }
         });

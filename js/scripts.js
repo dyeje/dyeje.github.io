@@ -93,7 +93,6 @@ $(document).ready(function () {
                 $('section.navigation').addClass('fixed');
                 $('header').css({
                     "border-bottom": "none",
-                    "padding": "25px 0"
                 });
                 $('header .member-actions').css({
                     "top": "26px",
@@ -104,8 +103,7 @@ $(document).ready(function () {
             } else {
                 $('section.navigation').removeClass('fixed');
                 $('header').css({
-                    "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
-                    "padding": "35px 0"
+                    "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)"
                 });
                 $('header .member-actions').css({
                     "top": "41px",
@@ -237,7 +235,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var itc_kol = {lat: 22.5932759, lng: 88.27027720000001};
+    var itc_kol = {lat: 42.351000, lng: -83.043220};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: itc_kol,
@@ -246,20 +244,6 @@ function initMap() {
 
     var marker = new google.maps.Marker({
         position: itc_kol,
-        map: map
-    });
-}
-
-function initBBSRMap() {
-    var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: la_fiesta,
-        scrollwheel: false
-    });
-
-    var marker = new google.maps.Marker({
-        position: la_fiesta,
         map: map
     });
 }

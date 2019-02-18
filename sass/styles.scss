@@ -288,7 +288,7 @@ Hero
 }
 .navigation {
   transition: all 300ms ease-in-out;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(7, 22, 63, .88);
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -299,7 +299,6 @@ Hero
   width: 100%;
 }
 header {
-  padding: 35px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
@@ -319,7 +318,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 80px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -753,6 +752,7 @@ Google map
 #map-canvas {
   height: 500px;
   width: 100%;
+  background-color: $section-dark;
 }
 #map-content-wrapper {
   position: relative;

@@ -94,16 +94,10 @@ $(document).ready(function () {
                 $('header').css({
                     "border-bottom": "none",
                 });
-                $('header .member-actions').css({
-                    "top": "26px",
-                });
             } else {
                 $('section.navigation').removeClass('fixed');
                 $('header').css({
                     "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)"
-                });
-                $('header .member-actions').css({
-                    "top": "41px",
                 });
             }
         });

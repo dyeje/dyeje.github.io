@@ -52,7 +52,7 @@
                             <li><a href="#map" class="login">Venue</a></li>
                         </ul>
                         <ul class="member-actions">
-                            <!-- <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li> -->
+                            <li><a href="#details" class="btn-white btn-small">RSVP</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -73,12 +73,47 @@
         <div class="row">
             <div class="col-sm-4 hidden-xs"></div>
             <div class="col-sm-4 hidden-xs text-center">
-                <!-- <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">RSVP</a> -->
+                <a href="#details" class="btn btn-accent btn-large rsvp-btn">RSVP</a>
             </div>
             <div class="col-sm-4 hidden-xs"></div>
         </div>
     </div>
     <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<section id='details'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <br>
+                <h3 class="header">Details</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"></div>
+            <div class="col-md-6">
+                <h3>RSVP</h3>
+                <p>Please RSVP by August 25th. You can do so by filling out <a href="https://forms.gle/iDGQfPzuCbA53MZW7">this form</a>, emailing <a href="mailto:cronkhitejessica@gmail.com">cronkhitejessica@gmail.com</a>, or calling / texting <a href="tel:5172307686">(517) 230-7686</a>.</p>
+
+                <h3>Date, Time, Location</h3>
+                <p>
+                    The wedding is September 28, 2019.<br>
+                    The ceremony and reception are both at <a href="#map">The Eastern</a>.<br><br>
+
+                    Ceremony - 4:30 PM<br>
+                    Cocktail Hour - 5:00 PM<br>
+                    Dinner - 6:00 PM<br>
+                </p>
+
+                <h3>Parking</h3>
+                <p>We recommend taking an Uber or Lyft to the event. There is unmetered street parking on Russell street. Additionally, the parking alot across the street from the venue is available <b>AFTER</b> 5 PM.</p>
+
+                <h3>Accomodations</h3>
+                <p>The couple is staying at <a href="https://thesirenhotel.com/">The Siren</a>, but also recommend <a href="https://www.shinolahotel.com/">The Shinola</a> and <a href="https://hiltongardeninn3.hilton.com/en/hotels/michigan/hilton-garden-inn-detroit-downtown-DETDHGI/index.html">Hilton Garden Inn</a>.
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs"></div>
+        </div>
+    </div>
 </section>
 
 <section id='faq'>
@@ -92,15 +127,6 @@
         <div class="row">
             <div class="col-md-3 hidden-sm hidden-xs"></div>
             <div class="col-md-6">
-                <h3>What?</h3>
-                <p>We are getting married!</p>
-
-                <h3>When?</h3>
-                <p>September 28th, 2019</p>
-
-                <h3>Where?</h3>
-                <p>The Eastern in Detroit, MI</p>
-
                 <h3>What should I do for a gift?</h3>
                 <p>We encourage you to contribute to our honeymoon or buy us a gift via either of our registries: <b><a href="http://tgt.gifts/jessandjer2019" target=”_blank” rel=”noopener noreferrer”>Target</a> or <a href="https://www.zola.com/registry/jessandjer2019" target=”_blank” rel=”noopener noreferrer”>Zola</a></b></p>
 
@@ -109,6 +135,9 @@
 
                 <h3>What's the dress code?</h3>
                 <p>The wedding and reception will be taking place at the same place and time with a cocktail hour in between, so wear something you will be comfortable in all night. A semi-formal look that is contemporary, fashionable, and danceable is your best bet.</p>
+
+                <h3>Will cameras and pictures be allowed during the ceremony?</h3>
+                <p>Yes, feel free to take pictures and post to social media.</p>
             </div>
             <div class="col-md-3 hidden-sm hidden-xs"></div>
         </div>
@@ -247,79 +276,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="rsvp text-center hidden" id="rsvp">
-
-    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <div class="section-padding">
-                        <h3>Thank you!</h3>
-                        <p>We are glad to see you join us on our big day.</p>
-                        <div id="add-to-cal"></div>
-                    </div>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h3>What are you waiting for?</h3>
-                <p>We would greatly appreciate if you could RSVP before 1st of November '17</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Husband/Wife or kids"
-                                                                  required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                                                class="" min="0"
-                                                                placeholder="Invite code"
-                                                                required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                    <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
-                    </button>
-                </form>
             </div>
         </div>
     </div>

@@ -31,6 +31,7 @@ a {
   transition-duration: 200ms;
   -webkit-transition-property: color, border-color, background-color;
   transition-property: color, border-color, background-color;
+  font-weight: bold;
 }
 a:hover, a:focus {
   color: $accent-color-hover;
@@ -55,6 +56,12 @@ ul li {
 }
 section .header {
   padding-bottom: 30px;
+}
+p {
+  padding-bottom: 5px;
+}
+h3 {
+  margin-bottom: 0px;
 }
 .section-padding {
   padding: $section-padding;
@@ -359,7 +366,7 @@ header {
   .member-actions {
     position: absolute;
     right: 0;
-    top: 41px;
+    top: 20px;
     transition: all 300ms ease-in-out;
   }
 }
@@ -367,7 +374,7 @@ header {
   color: #fff;
   font-size: 30px;
   position: absolute;
-  bottom: 30px;
+  bottom: 3px;
   left: 50%;
   transform: translateX(-50%);
 }
